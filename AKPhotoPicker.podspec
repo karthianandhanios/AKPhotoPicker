@@ -17,18 +17,17 @@ Pod::Spec.new do |spec|
 
   spec.name         = "AKPhotoPicker"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of AKPhotoPicker."
-
+  spec.summary      = "AKPhotoPicker is a multi-image picker. Using this we can able to pick and preview the image before sending it to remote"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  A much much longer description of MyFramework.
+  AKPhotoPicker is a multi-image picker. Using this we can able to pick and preview the image before sending it to remote. The is WhatsApp like multi-image picker
                    DESC
 
-  spec.homepage     = "http://www.github.com/karthianandhanios/AKPhotoPicker"
+  spec.homepage     = "http://www.github.com/karthianandhanios/AKPhotoPicker.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,9 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  
-  spec.license      = "MIT"
-
+  spec.license      = 'MIT'
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -55,8 +52,8 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "karthiAnandhan" => "karthianandhanit@gmail.com" }
   # Or just: spec.author    = "karthiAnandhan"
-  # spec.authors            = { "karthiAnandhan" => "karthianandhanit@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/karthiAnandhan"
+   spec.authors            = { "KarthivAnandhan" => "karthianandhanit@gmail.com" }
+   spec.social_media_url   = "https://twitter.com/karthiAnandhan"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -64,8 +61,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+   spec.platform     = :ios, "11.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
