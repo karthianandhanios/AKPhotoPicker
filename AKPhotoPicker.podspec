@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AKPhotoPicker"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "AKPhotoPicker is a multi-image picker. Using this we can able to pick and preview the image before sending it to remote"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -76,7 +76,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/karthianandhanios/AKPhotoPicker.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/karthianandhanios/AKPhotoPicker.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -130,7 +130,10 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+	spec.resource_bundles = {
+    	'AKPhotoPicker' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+  	}
 
-  spec.resources = "AKPhotoPicker/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+ # spec.resources = "AKPhotoPicker/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 end
