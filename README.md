@@ -17,9 +17,9 @@ A simple code configuration for the integration
 var picker  = AkPhotoPicker.init(type: type, viewController: self.navigationController!, delegate: self)
 picker?.showPicker()
 
-And confirm the FCAddAttachementHandlerDelegate delegate to get the callbacks
+And confirm the AKAddAttachementHandlerDelegate delegate to get the callbacks
 
-extension ClientViewController : FCAddAttachementHandlerDelegate {
+extension ClientViewController : AKAddAttachementHandlerDelegate {
     func selectedImageInfo(properties: [AttachmentProperties]) {
         print("selected image info", properties)
     }

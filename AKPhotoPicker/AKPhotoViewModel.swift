@@ -41,7 +41,7 @@ class PhotosViewModel  {
                     
                     var fileName = filename
                     if filename.split(separator: ".").first ==  "public" { // default file name in iOS
-                        fileName = "IMG_" + Date.generateCurrentTimeStamp() + "_fcon.jpeg"
+                        fileName = "IMG_" + Date.generateCurrentTimeStamp() + ".jpeg"
                     }
                     
                     if  string?.lowercased().isEndWithGif() ?? false{

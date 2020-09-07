@@ -15,7 +15,7 @@ public enum PicketType {
     case camara
 }
 
-public protocol FCAddAttachementHandlerDelegate : class {
+public protocol AKAddAttachementHandlerDelegate : class {
     func selectedImageInfo(properties : [AttachmentProperties])
     func cancelSendAttachemnts()
 }
@@ -27,9 +27,9 @@ public class AkPhotoPicker : NSObject{
     private var presenter : UINavigationController
     private var photoPreviewer : AKAttachmentPreviewController?
     private weak var photoPicker : AKPhotoPickerViewController?
-    weak var delegate : FCAddAttachementHandlerDelegate?
+    weak var delegate : AKAddAttachementHandlerDelegate?
     
-   public required init(type : PicketType, viewController : UINavigationController, delegate : FCAddAttachementHandlerDelegate) {
+   public required init(type : PicketType, viewController : UINavigationController, delegate : AKAddAttachementHandlerDelegate) {
         self.picketType = type
         presenter = viewController
         self.delegate =  delegate
@@ -105,7 +105,7 @@ extension AkPhotoPicker : UIImagePickerControllerDelegate,UINavigationController
             guard let image = info[.originalImage] as? UIImage else {
                 return
             }
-            addtoPreviewProperties(image: image,fileName: "IMG_" + Date.generateCurrentTimeStamp() + "_fcon.jpeg")
+            addtoPreviewProperties(image: image,fileName: "IMG_" + Date.generateCurrentTimeStamp() + ".jpeg")
         }
         picker.dismiss(animated: true, completion: nil)
     }
