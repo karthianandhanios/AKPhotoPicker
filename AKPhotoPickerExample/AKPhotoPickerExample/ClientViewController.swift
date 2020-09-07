@@ -31,7 +31,7 @@ class ClientViewController: UIViewController {
     }
 }
 
-extension ClientViewController : FCAddAttachementHandlerDelegate {
+extension ClientViewController : AKAddAttachementHandlerDelegate {
     func selectedImageInfo(properties: [AttachmentProperties]) {
         print("selected image info", properties)
     }
