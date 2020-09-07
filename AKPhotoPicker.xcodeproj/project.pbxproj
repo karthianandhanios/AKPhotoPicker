@@ -21,7 +21,6 @@
 		24944EE523FA8703006B87BF /* AKAttachmentPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24944ED923FA8703006B87BF /* AKAttachmentPreviewController.swift */; };
 		24944EE623FA8703006B87BF /* AKPhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24944EDA23FA8703006B87BF /* AKPhotoPicker.swift */; };
 		24944EE823FA8743006B87BF /* AKPhotoPickerMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24944EE723FA8743006B87BF /* AKPhotoPickerMain.storyboard */; };
-		24CDD787245E802B00227997 /* Assets.xcassets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CDD786245E802B00227997 /* Assets.xcassets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,7 @@
 		24944ED923FA8703006B87BF /* AKAttachmentPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKAttachmentPreviewController.swift; sourceTree = "<group>"; };
 		24944EDA23FA8703006B87BF /* AKPhotoPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKPhotoPicker.swift; sourceTree = "<group>"; };
 		24944EE723FA8743006B87BF /* AKPhotoPickerMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AKPhotoPickerMain.storyboard; sourceTree = "<group>"; };
-		24CDD786245E802B00227997 /* Assets.xcassets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets.xcassets; sourceTree = "<group>"; };
+		24CDD786245E802B00227997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +94,7 @@
 		24944E9A23FA8676006B87BF /* AKPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
-				24CDD786245E802B00227997 /* Assets.xcassets.xcassets */,
+				24CDD786245E802B00227997 /* Assets.xcassets */,
 				24944ED923FA8703006B87BF /* AKAttachmentPreviewController.swift */,
 				24944ECF23FA8702006B87BF /* AKConstants.swift */,
 				24944ED823FA8703006B87BF /* AKPhotoListCell.swift */,
@@ -215,7 +214,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24CDD787245E802B00227997 /* Assets.xcassets.xcassets in Resources */,
 				24944EE823FA8743006B87BF /* AKPhotoPickerMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
