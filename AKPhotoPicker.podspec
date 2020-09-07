@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "AKPhotoPicker"
-spec.version      = "1.0.3"
+spec.version      = "1.0.4"
 spec.summary      = "AKPhotoPicker is a multi-image picker. Using this we can able to pick and preview the image before sending it to remote"
 spec.description  = <<-DESC
 AKPhotoPicker is a multi-image picker. Using this we can able to pick and preview the image before sending it to remote. The is WhatsApp like multi-image picker
