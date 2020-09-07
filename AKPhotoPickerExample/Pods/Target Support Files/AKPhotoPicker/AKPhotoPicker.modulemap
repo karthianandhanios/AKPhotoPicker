@@ -1,0 +1,6 @@
+framework module AKPhotoPicker {
+  umbrella header "AKPhotoPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

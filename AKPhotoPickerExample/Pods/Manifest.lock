@@ -1,0 +1,16 @@
+PODS:
+  - AKPhotoPicker (1.0.1)
+
+DEPENDENCIES:
+  - AKPhotoPicker (from `../../AKPhotoPicker`)
+
+EXTERNAL SOURCES:
+  AKPhotoPicker:
+    :path: "../../AKPhotoPicker"
+
+SPEC CHECKSUMS:
+  AKPhotoPicker: 3a144b73a28c763456b1e5b315e76410d362f96a
+
+PODFILE CHECKSUM: 04faeb66fd8bfd3b4a512b00516935ab29498c6b
+
+COCOAPODS: 1.9.1
